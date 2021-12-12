@@ -9,15 +9,15 @@
     }
   
   body {
-      color: #911c6e;
+      color: #f1eaea;
       font-family: Helvetica, Arial, sans-serif;
-      background-color: rgb(16, 20, 27);
+      background-color: rgb(194, 108, 130);
     }
   
   /* apply styles to <header> */
   header {
       padding: 20px 35px;
-      background-color: #4c0d5c;
+      background-color: #161415;
       display:flex;
       justify-content: space-between;
       flex-wrap: wrap;
@@ -27,7 +27,7 @@
   header h1 {
       font-weight: bold;
       font-size: 50px;
-      color: var(--primary-color);
+      color: var(--primary-colorb);
       margin: 0;
     }
   
@@ -75,9 +75,9 @@
     position: absolute;
     top: 100px;
     left: 125px;
-    border: 5px var(--primary-color) solid;
+    border: 5px var(white) solid;
     height:215px;
-    width: 215px;
+    width: 175px;
   }
   
 .hero h2 {
@@ -85,7 +85,7 @@
     font-size: 30px;
     color: var(--primary-color);
     margin-inline: 500px;
-    background-color:rgb(30, 34, 37);
+    background-color:rgb(2, 2, 2);
   }
 
   
@@ -107,7 +107,7 @@
 .section-title {
     font-size: 35px;
     font-family:Arial, Helvetica, sans-serif;
-    color: #cebed3;
+    color: #ceaecc;
     margin: 0 0 0 80px;
     width: 100%;
   }
@@ -120,7 +120,7 @@
   }
   
 .vl-border1 {
-    border-right: 3px solid #2b162e;
+    border-right: 3px solid #172e16;
     height: 150px;
     flex: 2 1%;
   }
